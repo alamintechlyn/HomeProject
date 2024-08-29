@@ -1,0 +1,346 @@
+@media (min-width: 1400px) {
+}
+
+@media(min-width:1200px) and (max-width:1399.98px){
+    /* navigation css start */
+    .custom-container{
+        max-width: 1100px;
+     }
+    /* navigation css end */
+
+    /*minimal css start*/
+    .minimalImg img {
+      width: 380.68px !important;
+      height: auto !important;
+    }
+
+    .minimalText {
+      padding-top: 0px !important;
+    }
+
+    .minimalEffect img {
+      left: 46px !important;
+      top: -86px !important;
+      height: 400px;
+      width: 400px;
+    }
+    /*minimal css end*/
+}
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+    /* navigation css start */
+    .custom-container{
+        max-width: 960px;
+     }
+
+     .Header_text h1 {
+      font-size: 136.95px !important;
+    }
+    /* navigation css end */
+
+
+       /* banner css start */
+       .MainBanner {
+        grid-gap: 2rem;
+      }
+      .bannerText p {
+        width: 522.13px !important;
+      }
+        .bannerText h2 {
+          width: 554.38px !important;
+        }
+        .bannerText {
+          padding-top: 6rem !important;
+        }
+        .MainBanner {
+          grid-template-columns: 40% 58% !important;
+        }
+  /* banner css end */
+
+
+  
+    /*minimal css start*/
+        .MainMinmal{
+          flex-direction: column;
+        } 
+
+  .minimalText h2{
+      text-align: center !important;
+    }
+  .minimalText p{
+      text-align: center !important;
+    }
+  .minimalText h3{
+      text-align: center !important;
+    }
+    .btm {
+      justify-content: center !important;
+    }
+
+    .circle img {
+      left: 353px !important;
+      top: 18px !important;
+      width: 211px;
+    }
+    .minimalImg img {
+      padding-left: 13rem !important;
+    }
+
+
+    .minimalEffect img {
+      left: 247px !important;
+    }
+
+    /*minimal css end*/
+
+
+}
+
+
+@media(min-width:768px) and (max-width:991.98px){
+  
+ /* navigation css start */
+ .custom-container{
+    max-width: 720px;
+ }
+ .Header_text h1 {
+  font-size: 103.95px !important;
+  line-height: 102.61px !important;
+}
+
+
+/* navigation css end */
+
+      /* banner part start */
+      .MainBanner {
+        grid-template-columns: 100% !important;
+      }
+      .phoneNotch{
+        display: none;
+      }
+      .phoneImg{
+        display: none;
+      }
+      .bannerImg video{
+        width: 720px !important;
+      }
+      #Banner{
+        position: relative;
+      }
+      .bannerText{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+      }
+      #Banner{
+        height: 753px;
+      }
+
+      .bannerText h2 {
+        text-align: center !important;
+        width:auto !important;
+      }
+
+      .bannerText h3 {
+        line-height: 55.2px !important;
+        text-align: center !important;
+      }
+      .bannerText p {
+        text-align: center !important;
+        width: auto !important;
+      }
+      /* banner part end */
+
+      
+    /*minimal css start*/
+    .MainMinmal{
+      flex-direction: column;
+    } 
+
+.minimalText h2{
+  text-align: center !important;
+}
+.minimalText p{
+  text-align: center !important;
+}
+.minimalText h3{
+  text-align: center !important;
+}
+.btm {
+  justify-content: center !important;
+}
+
+.circle img {
+  left: 353px !important;
+  top: 18px !important;
+  width: 211px;
+}
+.minimalImg img {
+  padding-left: 13rem !important;
+}
+
+
+.minimalEffect img {
+  left: 247px !important;
+}
+
+/*minimal css end*/
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+     
+ /* navigation css start */
+ .custom-container{
+    max-width: 540px;
+ }
+ 
+ .Header_text h1 {
+  font-size: 61.21px !important;
+  line-height: 62.9px !important;
+}
+
+
+/* navigation css end */
+
+   /* banner part start */
+   .MainBanner {
+    grid-template-columns: 100% !important;
+  }
+  .phoneNotch{
+    display: none;
+  }
+  .phoneImg{
+    display: none;
+  }
+  .bannerImg video{
+    width: 540px !important;
+  }
+  #Banner{
+    position: relative;
+  }
+  .bannerText{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+  #Banner{
+    height: 753px;
+  }
+
+  .bannerText h2 {
+    text-align: center !important;
+    width:533px !important;
+  }
+
+  .bannerText h3 {
+    line-height: 55.2px !important;
+    text-align: center !important;
+  }
+  .bannerText p {
+    width: 402px !important;
+    padding-left: 90px;
+  }
+  /* banner part end */
+
+  /* online css start */
+    .onlineMain h2{
+      font-size: 45.84px !important;
+      line-height: 46.2px !important;
+      padding-top: 45rem !important;
+    }
+
+  /* online css end */
+ 
+}
+
+
+@media (max-width: 575.98px) {
+  /* navigation css start */
+ .custom-container{
+    max-width: 90%;
+ }
+ 
+ .Header_text h1 {
+  font-size: 50.21px !important;
+  line-height: 53.9px !important;
+}
+.navBar{
+  position: relative;
+}
+.button{
+  position: absolute;
+  right: 131px;
+  bottom: -44rem;
+  width: 147px;
+  height: 46.13px;
+}
+.button a{
+  font-size: 27.36px !important;
+  font-weight: 400 !important;
+  padding: 5px 15px !important;
+  background: #FF2E00;
+  color: #1E1D1C !important;
+}
+#Header video{
+  height: 852px !important;
+}
+/* navigation css end */
+
+
+
+/* banner part start */
+.MainBanner {
+  grid-template-columns: 100% !important;
+}
+.phoneNotch{
+  display: none;
+}
+.phoneImg{
+  display: none;
+}
+.bannerImg video{
+  width: 350px !important;
+}
+#Banner{
+  position: relative;
+}
+.bannerText{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+#Banner{
+  height: 753px;
+}
+
+.bannerText h2 {
+  text-align: center !important;
+  width:350px !important;
+  font-size: 41.45px !important;
+}
+
+.bannerText h3 {
+  line-height: 55.2px !important;
+  text-align: center !important;
+  font-size: 23.32px !important;
+  width: 350px !important;
+  line-height: 37.6px !important;
+}
+.bannerText p {
+  width: 275.3px !important;
+  padding-left: 49px;
+  line-height: 17.8px !important;
+  font-size: 13.18px !important;
+}
+
+
+/* banner part end */
+
+}
