@@ -25,6 +25,18 @@
       width: 400px;
     }
     /*minimal css end*/
+
+    /* access css start */
+    .brandIcon a img {
+      width: 88px !important;
+    }
+    /* access css end */
+
+    /* online css start */
+    .onlineMain img {
+      left: 22% !important;
+    }
+    /* online css end */
 }
 
 
@@ -94,6 +106,18 @@
 
     /*minimal css end*/
 
+    /* access css start */
+    .brandIcon a img {
+      width: 60px !important;
+    }
+    /* access css end */
+
+    /* online css start */
+    .onlineMain img {
+      left: 17% !important;
+      max-width: 100%;
+    }
+    /* online css end */
 
 }
 
@@ -188,11 +212,76 @@
 .minimalText img {
   margin-left: 115px !important;
 }
-
-
-
 /*minimal css end*/
 
+
+/* screen css start */
+.mainScreen {
+  grid-template-columns: 50% 50% !important;
+}
+.row{
+  padding-top: 36rem !important;
+}
+.screenText{
+  padding-bottom: 20px;
+} 
+/* screen css end */
+
+
+/* access css start */
+.MainAccess {
+ flex-direction: column;
+}
+
+.accessImg img{
+ display: none;
+}
+
+.accessImg2 img{
+  display: block;
+  width: 100%;
+}
+/* access css end */
+
+/* Quality css start */
+  #quality{
+    margin-top: 15rem;
+  }
+
+  .MainQuality{
+    grid-template-columns: 100% !important;
+  }
+  .qualityText h2{
+    text-align: center !important;
+  }
+  .qualityText p{
+    text-align: center !important;
+    padding-left: 73px;
+    padding-bottom: 20px;
+  }
+
+  .qualityImg img{
+    display: none;
+  }
+  .qualityImg2 img{
+    display: block;
+    max-width: 100%;
+    margin-left: 13rem;
+    padding-bottom: 5rem;
+  }
+/* Quality css end */
+.LastfotterText h2 {
+  font-size: 101.47px !important;
+  line-height: 101px !important;
+}
+
+
+    /* online css start */
+    .onlineMain img {
+      left: 6% !important;
+      max-width: 100%;
+    }
+    /* online css end */
 
 }
 
@@ -302,10 +391,100 @@ left: 0 !important;
 .minimalText img {
 margin-left: 22px !important;
 }
-
-
-
 /*minimal css end*/
+
+
+/* screen css start */
+.mainScreen {
+  grid-template-columns: 40% 60% !important;
+}
+.row{
+  padding-top: 20px !important;
+}
+.screenText{
+  padding-bottom: 10px;
+} 
+.abc h2{
+  font-size: 34px !important;
+}
+.screenText h3{
+  font-size: 16.33px !important;
+}
+.screenText p{
+  font-size: 10.57px !important;
+  line-height: 13.7px !important;
+  width: 148.61px !important;
+}
+
+.screenText h3{
+  font-size: 16.33px !important;
+}
+/* screen css end */
+
+/* access css start */
+.MainAccess {
+  flex-direction: column;
+ }
+ 
+ .accessImg img{
+  display: none;
+ }
+ 
+ .accessText h2{
+  text-align: center !important;
+ }
+ .accessText h3 {
+  text-align: center !important;
+ }
+ .accessText p {
+  text-align: center !important;
+ }
+ .accessImg2 img{
+   display: block;
+   width: 100%;
+ }
+ .brandIcon a img {
+  width: 88px !important;
+}
+ /* access css end */
+
+
+ 
+/* Quality css start */
+#quality{
+  margin-top: 15rem;
+}
+
+.MainQuality{
+  grid-template-columns: 100% !important;
+}
+.qualityText h2{
+  text-align: center !important;
+}
+.qualityText p{
+  text-align: center !important;
+  padding-left: 73px;
+  padding-bottom: 20px;
+  width: 402px !important;
+}
+
+.qualityImg img{
+  display: none;
+}
+.qualityImg2 img{
+  display: block;
+  max-width: 100%;
+  margin-left: 7rem;
+  padding-bottom: 5rem;
+}
+
+/* Quality css end */
+
+.LastfotterText h2 {
+  font-size: 101.47px !important;
+  line-height: 101px !important;
+}
+
 }
 
 
@@ -316,8 +495,8 @@ margin-left: 22px !important;
  }
  
  .Header_text h1 {
-  font-size: 50.21px !important;
-  line-height: 53.9px !important;
+  font-size: 74.47px !important;
+  line-height: 81px !important;
 }
 
 .navBar{
@@ -426,8 +605,6 @@ padding: 0 !important;
 justify-content: center !important;
 flex-direction: column;
 }
-
-
 .circle img {
   left: 253px !important;
   top: 32px !important;
@@ -469,5 +646,106 @@ width: 270px;
 
 .btm button{
   display: none;
+}
+
+
+/* screen css start */
+.mainScreen {
+  grid-template-columns: 40% 60% !important;
+}
+.row{
+  padding-top: 20px !important;
+}
+.screenText{
+  padding-bottom: 10px;
+} 
+.abc h2{
+  font-size: 34px !important;
+}
+.screenText h3{
+  font-size: 16.33px !important;
+}
+.screenText p{
+  font-size: 10.57px !important;
+  line-height: 13.7px !important;
+  width: 148.61px !important;
+}
+
+.screenText h3{
+  font-size: 16.33px !important;
+}
+
+.mainScreen {
+  padding-top: 18rem !important;
+}
+/* screen css end */
+
+
+
+/* access css start */
+.MainAccess {
+  flex-direction: column;
+ }
+ 
+ .accessImg img{
+  display: none;
+ }
+ 
+ .accessText h2{
+  text-align: center !important;
+ }
+ .accessText h3 {
+  text-align: center !important;
+ }
+ .accessText p {
+  text-align: center !important;
+ }
+ .accessImg2 img{
+   display: block;
+   width: 100%;
+ }
+ .brandIcon a img {
+  width: 54px !important;
+}
+
+.accessText {
+  padding-top: 135px !important;
+}
+ /* access css end */
+
+ 
+/* Quality css start */
+#quality{
+  margin-top: 15rem;
+}
+
+.MainQuality{
+  grid-template-columns: 100% !important;
+}
+.qualityText h2{
+  text-align: center !important;
+}
+.qualityText p{
+  text-align: center !important;
+  padding-left: 73px;
+  padding-bottom: 20px;
+  width: 402px !important;
+}
+
+.qualityImg img{
+  display: none;
+}
+.qualityImg2 img{
+  display: block;
+  max-width: 100%;
+  margin-left: 7rem;
+  padding-bottom: 5rem;
+}
+
+/* Quality css end */
+
+.LastfotterText h2 {
+  font-size: 43.37px !important;
+  line-height: 34.6px !important;
 }
 }

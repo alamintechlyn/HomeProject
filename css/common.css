@@ -35,3 +35,11 @@ ol {
  body{
     background: #EAE9E3;
  }
+
+ .accessImg2 img{
+    display: none;
+ }
+
+ .qualityImg2 img{ 
+    display: none;
+ }

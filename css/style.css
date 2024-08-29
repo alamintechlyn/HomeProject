@@ -293,6 +293,7 @@ margin-top: 50px;
     line-height: 63.35px;
     letter-spacing: -0.03em;
     text-align: left;
+    padding-bottom: 30px;
 
 }
 .screenText h3{
@@ -320,21 +321,21 @@ margin-top: 50px;
 .abc{
     position: relative;
 }
-.abc h2{
-    position: absolute;
-    top: 70%;
-    left: 67px;
-}
-.mainScreen{
-    position: absolute;
-    left: 69px;
-    bottom: 66px;
-    display: flex;
-}
+
+ .mainScreen{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 20px;
+ }
 .screenText{
     padding-right: 65px;
 }
 
+.row{
+    padding-top: 43rem;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
 /* screen css end */
 
 
@@ -377,8 +378,6 @@ margin-top: 50px;
     margin-left: 20px;
     width: 90px;
 }
-
-
 .accessText{
     padding-top: 300px;
 }
