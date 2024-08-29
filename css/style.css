@@ -434,5 +434,13 @@ margin-top: 50px;
     bottom: 0;
 }
 
+.btm h4{
+    font-size: 25.23px !important;
+    text-align: center !important;
+    padding: 0 !important;
+}
+.btm span{
+    font-size: 25.23px !important;
+}
 
 /* footer css end */
