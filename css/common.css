@@ -43,3 +43,41 @@ ol {
  .qualityImg2 img{ 
     display: none;
  }
+
+ .button2{
+    display: none;
+ }
+
+ #Banner #vid{
+   display: hidden;
+ }
+
+ .screenText1{
+    display: none;
+ }
+
+.uptoOnline video{
+    width: 669.6px;
+    height: auto;
+    border-radius: 47px;
+    position: absolute;
+    left: 24%;
+    top: 0;
+    z-index: -1;
+}
+.uptoCon{
+    position: relative;
+}
+#uptoOnline{
+    padding: 13rem 0;
+}
+
+.uptoOnline h2{
+    font-family: "Forum", serif;
+    font-size: 103.55px;
+    font-weight: 400;
+    line-height: 104.39px;
+    text-align: center;
+    color: #FF2E00;
+    padding-top: 8rem;
+}

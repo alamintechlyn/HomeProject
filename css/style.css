@@ -19,6 +19,17 @@
         border-radius: 23px;
         padding: 12px 30px;
     }
+
+    .button2 a{
+        font-family: "Forum", serif;
+        font-size: 32px;
+        font-weight: 400;
+        text-align: center;
+        color: #FF2E00;
+        border: 1px solid #FF2E00;
+        border-radius: 23px;
+        padding: 12px 30px;
+    }
     .Header_text h1{
         font-family: "Forum", serif;
         font-size: 145.95px;
@@ -27,9 +38,14 @@
         letter-spacing: -4%;
         text-align: center;
         color: #E0DFD9;
+        padding: 7rem;
     }
     .Header_text{
         padding-top: 208px;
+    }
+
+    .button2{
+        display: none;
     }
 
 /* Header css end */
@@ -39,6 +55,9 @@
 #Banner{
     padding: 135px 0;
     background: #000000;
+}
+#Banner #vid{
+  display: none;
 }
 .MainBanner{
     display: grid;
@@ -53,18 +72,15 @@
     font-size: 57.15px;
     font-weight: 400;
     line-height: 51.18px;
-    letter-spacing: -3%;
     text-align: left;
     color: #FF2E00;
-    padding-bottom: 25PX;
-    width: 645.38px;
+    padding-bottom: 25px;
 }
 .bannerText h3{
     font-family: "Open Sans", sans-serif;
     font-size: 32.15px;
     font-weight: 400;
     line-height: 71.2px;
-    letter-spacing: -3%;
     text-align: left;    
     color: #FFFFFF;
     padding-bottom: 25px;
@@ -76,9 +92,7 @@
     line-height: 24.54px;
     text-align: left;
     color: #FFFFFF;
-    width: 676.13px;
 }
-
 .bannerImg img{
     position: absolute;
     width: 100%;
@@ -91,7 +105,6 @@
 .MainBanner{
     position: relative;
 }
-
 .bannerImg {
     position: relative;
     max-width: 100%;
@@ -404,15 +417,14 @@ margin-top: 50px;
     line-height: 28.51px;
     text-align: left;   
     color: #E0DFD9; 
-    width: 560px;
     }
 
     .MainQuality{
         display: grid;
-        grid-template-columns: 45% 55%;
+        grid-template-columns: 50% 50%;
         position: relative;
     }
-    .qualityImg img{
+    .qualityImg a img{
         max-width: 100%;
     }
     #quality{
@@ -438,8 +450,9 @@ margin-top: 50px;
 }
 .fotterEffect img{
     position: absolute;
-    right: 187px;
-    bottom: 0;
+    right: 301px;
+    bottom: -22px;
+    width: 709px;
 }
 
 .btm h4{
